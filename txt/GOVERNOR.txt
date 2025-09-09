@@ -1,0 +1,5 @@
+# GOVERNOR (PURE TEXT)
+Rates: SZ=10; meals_per_person_per_day=3; liters_per_person_per_day=3 (↑ in heat).
+Invariants: day_step=1; percent_bounds=[0,100]; project_non_decreasing; resource_clamp_zero; recompute_FW_WW.
+Cooldowns: sites_days=5; major_events_days=5.
+Choices: safe_small_gain / risky_big_gain / maintenance_comfort.

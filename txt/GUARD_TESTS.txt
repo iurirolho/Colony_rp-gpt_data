@@ -1,0 +1,6 @@
+# GUARD SELF-TESTS (PURE TEXT)
+Must ack 'OK.' only.
+Must support two-step cycle and legend headers.
+Must respect setting lock (LA warehouse).
+Must not print forbidden terms or UI chrome.
+Sample headers to use: [PLANNING], Narration, Events, STATE (pre), Last Result, Choices, [RESOLUTION], Applied, Outcome, STATE, HIST, PERIODIC.
