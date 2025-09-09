@@ -15,14 +15,22 @@
       "ooc_preamble"
     ]
   },
-  "output_order": [
-    "Narration",
-    "Events",
-    "Choices",
-    "Outcome",
-    "STATE",
-    "HIST"
-  ],
+  "message_types": {
+    "planning_order": [
+      "Narration",
+      "Events",
+      "STATE (pre)",
+      "Last Result",
+      "Choices"
+    ],
+    "resolution_order": [
+      "Applied",
+      "Outcome",
+      "STATE",
+      "HIST",
+      "PERIODIC"
+    ]
+  },
   "choices_required": [
     "A_safe_small_gain",
     "B_risky_big_gain",
@@ -42,5 +50,5 @@
     "resource_clamp_zero": true,
     "recompute_FW_WW": true
   },
-  "notes": "Enforce terse sections. No prefaces, apologies, or explanations."
+  "notes": "Two-step cycle with legend; planning ends with Choices and includes Last Result above it. Enforce terse sections; no preambles."
 }

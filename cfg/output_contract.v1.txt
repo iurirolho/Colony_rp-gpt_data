@@ -1,21 +1,16 @@
-# OUTPUT CONTRACT (exact order)
+# OUTPUT CONTRACT (TWO-STEP CYCLE + LEGEND)
 
-Narration
-- 2–3 sentences. Gritty, realistic. LA warehouse only.
+## Message Legend
+- [PLANNING] = before user chooses
+- [RESOLUTION] = after user chooses
 
-Events
-- 2–3 bullets from encounter categories.
-
-Choices (A/B/C)
-- Exactly 3 lines:
-  A) Safe/small gain — one-line resource effects & risk
-  B) Risky/big gain — one-line resource effects & risk
-  C) Maintenance/comfort — one-line resource effects & risk
-
-Outcome
-- Only after I pick A/B/C. One concise paragraph + bullet resource deltas.
-
-STATE
+## A) [PLANNING] message (before user chooses)
+Order (exactly this, no extra text):
+1) Narration
+   - 2–3 sentences. Gritty, realistic. LA warehouse only.
+2) Events
+   - 2–3 bullets, each prefixed with [Category] (e.g., [Scavenge], [Threat], [Engineering]).
+3) STATE (pre)
 STATE
 D:<day>|Wx:<weather>|SZ:10
 F:<meals>|FW:<days>  Wc:<L>|WW:<days>
@@ -24,16 +19,42 @@ Sh:<%>|Df:<%>  Mo:<0-10>|He:<0-10>
 Prj:[{n:<name>,p:<%>,eta:<d>},...]
 Risk:[raid:low/med/high,ill:low/med/high,...]
 END
+4) Last Result
+   - Single line (≤ 20 words) summarizing the result of the previous choice.
+5) Choices (A/B/C)
+   A) Safe/small gain — one-line resource effects & risk
+   B) Risky/big gain — one-line resource effects & risk
+   C) Maintenance/comfort — one-line resource effects & risk
 
-HIST
-HIST
-D<N-6>: <1 line>
-...
-D<N>: <1 line>
+## B) [RESOLUTION] message (after user picks A/B/C)
+Order (exactly this, no extra text):
+1) Applied
+   - Echo the selected option label (A/B/C) and its short name.
+2) Outcome
+   - ≤ 2 sentences summary.
+   Gains: +X meals, +Y L water, +tools...
+   Losses: −X meals, −fuel h, −materials...
+   Injuries: <count/short notes> (or None)
+   Other: morale/defense/notes
+3) STATE (updated)
+STATE
+D:<day>|Wx:<weather>|SZ:10
+F:<meals>|FW:<days>  Wc:<L>|WW:<days>
+Pfu:<h_gen>|Prn:<kWh_day>|Pb:<%>
+Sh:<%>|Df:<%>  Mo:<0-10>|He:<0-10>
+Prj:[{n:<name>,p:<%>,eta:<d>},...]
+Risk:[raid:low/med/high,ill:low/med/high,...]
 END
+4) HIST
+HIST
+D<N>: <≤ 12 words>
+END
+5) PERIODIC (when due)
+   - Append WSUM/MSUM/QSUM/YSUM lines per schemas.
 
-# RULES
+## Rules
 - No meta explanations. No sci-fi/fantasy. LA warehouse only.
-- Use governor rates (SZ=10; food 3ppd; water 3 Lppd; heat ↑ water).
+- Choices must be exactly A/B/C as defined (safe small, risky big, maintenance/comfort).
 - Respect cooldowns (5 days same site/major event).
 - Weekly/Monthly/Quarterly/Yearly summaries per schemas when due.
+- Keep sections concise; STATE overwrites previous values (no history inside STATE).
