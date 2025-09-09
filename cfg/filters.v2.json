@@ -1,0 +1,41 @@
+{
+  "drift_terms_block": [
+    "exoplanet",
+    "terraform",
+    "FTL",
+    "stardate",
+    "spaceship",
+    "warp",
+    "wizard",
+    "dragon",
+    "magic",
+    "portal",
+    "telepathy",
+    "alien",
+    "orbital",
+    "colony ship",
+    "atmospheric sensors"
+  ],
+  "meta_preamble_block": [
+    "Got it",
+    "I will",
+    "Here’s how I’ll",
+    "ELI5",
+    "Premise:",
+    "Turn structure",
+    "Perfect—",
+    "ChatGPT can make mistakes",
+    "Cookie Preferences",
+    "Ask anything",
+    "https://chatgpt.com"
+  ],
+  "ui_noise_block": [
+    "Skip to content",
+    "Chat history",
+    "Open in Gmail",
+    "Open in new tab",
+    "©",
+    "Privacy",
+    "Terms"
+  ]
+}

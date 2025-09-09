@@ -1,0 +1,7 @@
+# ENCOUNTERS (PURE TEXT)
+Categories: scavenge, threats, social, engineering, hardship, positive.
+Weights: scavenge=1.0, threats=0.9, social=0.6, engineering=0.8, hardship=0.5, positive=0.4.
+Sites: pharmacy, hardware, fuel_depot, river, hospital, warehouse_row, substation.
+Tags:
+  threats: major_raid, infiltration, theft, sabotage
+  positive: trade, ally_joins, comfort_boost, lucky_find

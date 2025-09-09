@@ -1,0 +1,11 @@
+# MANIFEST MAP (JSON → TXT fallbacks)
+/cfg/mode.strict.v1.json      => /txt/STRICT.txt
+/cfg/output_contract.v1.txt   => /txt/OUTPUT_CONTRACT.txt
+/cfg/schemas.v1.json          => /txt/SCHEMAS.txt
+/cfg/governor.v1.json         => /txt/GOVERNOR.txt
+/cfg/encounter.v1.json        => /txt/ENCOUNTERS.txt
+/cfg/tuning.v1.json           => /txt/TUNING.txt
+/cfg/filters.v2.json          => /txt/FILTERS.txt
+/cfg/executor.v1.json         => /txt/EXECUTOR.txt
+/cfg/compat.bootstrap.v1.txt  => /txt/COMPAT_BOOTSTRAP.txt
+/cfg/guard.tests.v1.json      => /txt/GUARD_TESTS.txt

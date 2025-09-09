@@ -1,0 +1,4 @@
+# FILTERS v2 (PURE TEXT)
+Block drift terms: exoplanet, terraform, FTL, stardate, spaceship, warp, wizard, dragon, magic, portal, telepathy, alien, orbital, colony ship, atmospheric sensors
+Block meta preambles: Got it, I will, Here’s how I’ll, ELI5, Premise:, Turn structure, Perfect—, ChatGPT can make mistakes, Cookie Preferences, Ask anything, https://chatgpt.com
+Block UI noise: Skip to content, Chat history, Open in new tab, Privacy, Terms
