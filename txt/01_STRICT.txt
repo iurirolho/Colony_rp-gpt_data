@@ -1,7 +1,7 @@
 # STRICT MODE (PURE TEXT)
 Ack only: OK.
 Setting lock: Earth → Los Angeles → abandoned warehouse by the river.
-Bans: sci‑fi, supernatural, meta preambles, UI chrome, external URLs.
+Bans: sci‑fi, supernatural, meta prefaces, UI chrome, external URLs.
 Cooldowns: 5 days for same site/major event.
 Invariants: Day +1; % in [0,100]; project progress non‑decreasing; resource clamp ≥0; recompute FW/WW.
-Two-step cycle enforced with legend headers.
+Two-step cycle with legend headers only.

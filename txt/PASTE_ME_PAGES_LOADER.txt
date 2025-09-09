@@ -1,0 +1,15 @@
+PASTE THIS MESSAGE IN CHAT (GitHub Pages URLs)
+Load these URLs in order; reply only "OK." after loading each. If a URL fails, skip it and continue. Begin Day 1 in [PLANNING] after loading.
+
+1) https://iurirolho.github.io/Colony_rp-gpt_data/txt/00_MASTER.txt
+2) https://iurirolho.github.io/Colony_rp-gpt_data/txt/01_STRICT.txt
+3) https://iurirolho.github.io/Colony_rp-gpt_data/txt/02_OUTPUT_CONTRACT.txt
+4) https://iurirolho.github.io/Colony_rp-gpt_data/txt/03_EXECUTOR.txt
+5) https://iurirolho.github.io/Colony_rp-gpt_data/txt/04_SCHEMAS.txt
+6) https://iurirolho.github.io/Colony_rp-gpt_data/txt/05_GOVERNOR.txt
+7) https://iurirolho.github.io/Colony_rp-gpt_data/txt/06_ENCOUNTERS.txt
+8) https://iurirolho.github.io/Colony_rp-gpt_data/txt/07_TUNING.txt
+9) https://iurirolho.github.io/Colony_rp-gpt_data/txt/08_FILTERS.txt
+10) https://iurirolho.github.io/Colony_rp-gpt_data/txt/09_COMPAT.txt
+11) https://iurirolho.github.io/Colony_rp-gpt_data/txt/10_GUARD_TESTS.txt
+12) https://iurirolho.github.io/Colony_rp-gpt_data/txt/11_STARTER_STATE.txt

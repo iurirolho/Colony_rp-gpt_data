@@ -1,3 +1,0 @@
-# Colony Survival Sim — GitHub Pages Starter
-
-This repo hosts a **prompt manifest** for a text-based, endless survival simulation inspired by Discovery’s *The Colony (2009–2010)*.
