@@ -1,0 +1,27 @@
+{
+  "invariants": {
+    "day_step": 1,
+    "percent_bounds": [
+      0,
+      100
+    ],
+    "project_non_decreasing": true,
+    "resource_clamp_zero": true
+  },
+  "rates": {
+    "group_size": 10,
+    "meals_per_person_per_day": 3,
+    "liters_per_person_per_day": 3
+  },
+  "cooldowns": {
+    "sites_days": 5,
+    "major_events_days": 5
+  },
+  "choices": [
+    "safe_small_gain",
+    "risky_big_gain",
+    "maintenance_comfort"
+  ],
+  "weekly_monthly_quarterly_yearly": true,
+  "anti_repeat_use_summaries": true
+}

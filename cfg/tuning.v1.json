@@ -1,0 +1,21 @@
+{
+  "season_modifiers": {
+    "heat": {
+      "water_need_mult": 1.25,
+      "illness_risk": "med"
+    },
+    "stormy": {
+      "shelter_damage_bias": "med",
+      "scavenge_penalty": "low"
+    }
+  },
+  "bias_from_summaries": {
+    "if_last_wsum_key_major_raid": {
+      "threats_weight_mult": 0.6,
+      "engineering_weight_mult": 1.2
+    },
+    "if_msum_fuel_decline": {
+      "scavenge_fuel_weight_mult": 1.4
+    }
+  }
+}

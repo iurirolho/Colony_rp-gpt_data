@@ -1,0 +1,17 @@
+{
+  "id": "colony-v1",
+  "about": "The Colony endless survival configuration",
+  "version": "1.0.0",
+  "schemas": "/cfg/schemas.v1.json",
+  "governor": "/cfg/governor.v1.json",
+  "encounters": "/cfg/encounter.v1.json",
+  "tuning": "/cfg/tuning.v1.json",
+  "packs": {
+    "state_example": "/cfg/packs/sample_state.b85"
+  },
+  "meta": {
+    "license": "CC-BY-4.0",
+    "lastUpdated": "2025-09-09",
+    "notes": "Public guidance only. No secrets."
+  }
+}

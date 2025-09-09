@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "manifests": [
+    {
+      "id": "colony-v1",
+      "url": "/manifest/v1.json",
+      "default": true
+    }
+  ]
+}
