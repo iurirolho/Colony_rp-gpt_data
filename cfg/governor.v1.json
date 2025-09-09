@@ -6,7 +6,8 @@
       100
     ],
     "project_non_decreasing": true,
-    "resource_clamp_zero": true
+    "resource_clamp_zero": true,
+    "recompute_FW_WW": true
   },
   "rates": {
     "group_size": 10,
