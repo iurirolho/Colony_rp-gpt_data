@@ -1,8 +1,0 @@
-# Changelog (add to your repo)
-
-## 2025-09-09 — Rev 4: Compatibility & Guards
-- Added `/cfg/compat.bootstrap.v1.txt` (inline fallback so runs continue even if web fetch fails).
-- Added `/cfg/guard.tests.v1.json` (engine self-tests: ack OK, two-step, setting lock, forbidden terms).
-- Added `/cfg/filters.v2.json` (stricter drift/meta/UI blocks, including chat UI phrases).
-- Added `manifest/patch.rev4.json` (keys to add: `compat_bootstrap`, `guard_tests`, update `filters` to v2).
-- Included `README-TROUBLESHOOT.md` with quick commands for common failure modes.

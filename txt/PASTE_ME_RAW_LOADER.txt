@@ -1,0 +1,15 @@
+PASTE THIS MESSAGE IN CHAT (raw.githubusercontent URLs)
+Load these URLs in order; reply only "OK." after loading each. If a URL fails, skip it and continue. Begin Day 1 in [PLANNING] after loading.
+
+1) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/00_MASTER.txt
+2) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/01_STRICT.txt
+3) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/02_OUTPUT_CONTRACT.txt
+4) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/03_EXECUTOR.txt
+5) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/04_SCHEMAS.txt
+6) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/05_GOVERNOR.txt
+7) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/06_ENCOUNTERS.txt
+8) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/07_TUNING.txt
+9) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/08_FILTERS.txt
+10) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/09_COMPAT.txt
+11) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/10_GUARD_TESTS.txt
+12) https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/11_STARTER_STATE.txt

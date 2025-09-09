@@ -1,0 +1,13 @@
+# STARTER STATE & HIST (PURE TEXT)
+STATE
+D:1|Wx:Mild|SZ:10
+F:150|FW:5  Wc:90|WW:3
+Pfu:12|Prn:0.0|Pb:10
+Sh:60|Df:30  Mo:5|He:8
+Prj:[{n:WaterFilter,p:0,eta:2}]
+Risk:[raid:med,ill:low]
+END
+
+HIST
+D1: Arrival; scouted hardware store & fuel lot; roof leak noted.
+END

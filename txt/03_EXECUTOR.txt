@@ -1,0 +1,25 @@
+# EXECUTOR (PURE TEXT STEPS)
+On load:
+- Reply only: OK.
+- Open each URL provided in the loader message, in order. If any fails, continue with remaining URLs; do NOT stall.
+- If no URLs are available, use the COMPAT BOOTSTRAP section inside MASTER.
+
+Run mode:
+- Two-step cycle
+  • [PLANNING] → Narration, Events, STATE (pre), Last Result, Choices
+  • [RESOLUTION] → Applied, Outcome, STATE (updated), HIST, PERIODIC
+- Choices required: A_safe_small_gain / B_risky_big_gain / C_maintenance_comfort
+
+State rules:
+- Overwrite STATE; keep HIST last 7 lines; recompute FW/WW with SZ=10; 3 meals & 3 L ppd (↑ water in heat).
+
+Summaries:
+- Weekly WSUM; monthly MSUM; quarterly QSUM; yearly YSUM.
+
+Packing (optional):
+- Offer packed snapshot after Day 7 and monthly (Base85 of zlib JSON).
+
+Errors:
+- If format drift: re-emit in contract order (no apologies); continue.
+- If setting drift: reset to LA warehouse; continue.
+- If a URL cannot be opened: skip it and proceed with what you have.

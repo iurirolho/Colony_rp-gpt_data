@@ -1,13 +1,20 @@
 ---
-title: Colony Survival Sim
+title: Colony RP GPT Data (Pure TXT)
 ---
-# Colony Survival Sim — Prompt Manifest
-- [Manifest](/manifest/v1.json)
-- [Schemas](/cfg/schemas.v1.json)
-- [Governor](/cfg/governor.v1.json)
-- [Encounters](/cfg/encounter.v1.json)
-- [Tuning](/cfg/tuning.v1.json)
-- [Strict Mode](/cfg/mode.strict.v1.json)
-- [Output Contract](/cfg/output_contract.v1.txt)
-- [Filters](/cfg/filters.v1.json)
-- [Sample Pack](/cfg/packs/sample_state.b85)
+# Colony RP GPT Data — Pure TXT (Rev 6.1)
+
+**Master (single file):**
+- [/txt/00_MASTER.txt](/txt/00_MASTER.txt)
+
+**Modules:**
+- [/txt/01_STRICT.txt](/txt/01_STRICT.txt)
+- [/txt/02_OUTPUT_CONTRACT.txt](/txt/02_OUTPUT_CONTRACT.txt)
+- [/txt/03_EXECUTOR.txt](/txt/03_EXECUTOR.txt)
+- [/txt/04_SCHEMAS.txt](/txt/04_SCHEMAS.txt)
+- [/txt/05_GOVERNOR.txt](/txt/05_GOVERNOR.txt)
+- [/txt/06_ENCOUNTERS.txt](/txt/06_ENCOUNTERS.txt)
+- [/txt/07_TUNING.txt](/txt/07_TUNING.txt)
+- [/txt/08_FILTERS.txt](/txt/08_FILTERS.txt)
+- [/txt/09_COMPAT.txt](/txt/09_COMPAT.txt)
+- [/txt/10_GUARD_TESTS.txt](/txt/10_GUARD_TESTS.txt)
+- [/txt/11_STARTER_STATE.txt](/txt/11_STARTER_STATE.txt)
