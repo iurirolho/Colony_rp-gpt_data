@@ -1,0 +1,36 @@
+# OUTPUT CONTRACT (TWO-STEP + LEGEND, PURE TEXT)
+[PLANNING] order: Narration → Events → STATE (pre) → Last Result → Choices
+[RESOLUTION] order: Applied → Outcome → STATE → HIST → PERIODIC
+
+Narration: 2–3 sentences, realistic, LA warehouse only.
+Events: 2–3 bullets, each prefixed with [Category].
+
+STATE block (copy exactly):
+STATE
+D:<day>|Wx:<weather>|SZ:10
+F:<meals>|FW:<days>  Wc:<L>|WW:<days>
+Pfu:<h_gen>|Prn:<kWh_day>|Pb:<%>
+Sh:<%>|Df:<%>  Mo:<0-10>|He:<0-10>
+Prj:[{n:<name>,p:<%>,eta:<d>},...]
+Risk:[raid:low/med/high,ill:low/med/high,...]
+END
+
+Last Result: single line (≤20 words) summarizing previous choice’s effect.
+
+Choices (exactly three one-liners):
+A) Safe/small gain — effects & risk
+B) Risky/big gain — effects & risk
+C) Maintenance/comfort — effects & risk
+
+Outcome (≤2 sentences), then:
+Gains: +...
+Losses: -...
+Injuries: <count/notes> or None
+Other: morale/defense/notes
+
+HIST block:
+HIST
+D<N>: <≤12 words>
+END
+
+PERIODIC (when due): append WSUM/MSUM/QSUM/YSUM lines per schemas.

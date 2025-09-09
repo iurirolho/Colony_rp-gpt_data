@@ -1,0 +1,22 @@
+# SCHEMAS (PURE TEXT)
+STATE schema:
+D:<day>|Wx:<weather>|SZ:10
+F:<meals>|FW:<days>  Wc:<L>|WW:<days>
+Pfu:<h_gen>|Prn:<kWh_day>|Pb:<%>
+Sh:<%>|Df:<%>  Mo:<0-10>|He:<0-10>
+Prj:[{n:<name>,p:<%>,eta:<d>},...]
+Risk:[raid:low/med/high,ill:low/med/high,...]
+
+HIST schema: D<N>: <1-line summary> (last 7 only)
+
+WSUM:
+WSUM W<N>: FΔ:<±meals> WΔ:<±L> PfuΔ:<±h> ShΔ:<±%> DfΔ:<±%> MoAvg:<x> HeAvg:<y> | Prj:+<name>(+%), ✓<name> | Key:<a>,<b> | Risks:<r1>,<r2>
+
+MSUM:
+MSUM M<N>: FΔ:<±meals> WΔ:<±L> PfuΔ:<±h> ShΔ:<±%> DfΔ:<±%> MoTrend:<↓/→/↑> HeTrend:<↓/→/↑> | Prj:+<name>(+%), ✓<name> | Themes:<t1>,<t2> | Outlook:<short>
+
+QSUM:
+QSUM Q<N>: Cap:Food:<days> Water:<days> Power:<h/Prn kWh/d> Shelter:<%>/Def:<%> | Shifts:+<new>,-<lost> | MacroRisks:<r1>,<r2> | Plan:<short>
+
+YSUM:
+YSUM Y<N>: Net FΔ:<±meals> WΔ:<±L> PfuΔ:<±h> ShΔ:<±%> DfΔ:<±%> MoTrend:<↓/→/↑> HeTrend:<↓/→/↑> | Milestones: ✓<proj>, +<ally>/<vehicle> | Themes:<t1>,<t2> | Outlook:<short>

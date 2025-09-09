@@ -1,0 +1,6 @@
+LOADER (TXT-FIRST OFFLINE-CAPABLE)
+1) Reply only: OK.
+2) Attempt to load JSONs from the manifest. If any fetch fails, DO NOT STALL.
+3) Use TXT fallbacks mapped in /txt/MANIFEST_MAP.txt (treat each TXT file as authoritative).
+4) Enforce STRICT, OUTPUT CONTRACT, and EXECUTOR rules from TXT if JSONs not available.
+5) Begin Day 1 in [PLANNING]. Follow contract order exactly.
