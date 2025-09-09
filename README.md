@@ -8,9 +8,66 @@ Paste this single link in chat and say: *Open this and follow it. Begin Day 1 in
 - **Master file:** https://iurirolho.github.io/Colony_rp-gpt_data/txt/00_MASTER.txt
 
 ## Or use the full loader (multiple URLs)
-Open and follow:  
-- **Pages loader:** [/txt/PASTE_ME_PAGES_LOADER.txt](/txt/PASTE_ME_PAGES_LOADER.txt)  
-- **Raw loader:** [/txt/PASTE_ME_RAW_LOADER.txt](/txt/PASTE_ME_RAW_LOADER.txt)
+Open and follow:
+
+- **Pages loader:**  
+  https://iurirolho.github.io/Colony_rp-gpt_data/txt/PASTE_ME_PAGES_LOADER.txt  
+
+- **Raw loader:**  
+  https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/PASTE_ME_RAW_LOADER.txt  
+
+---
+
+## Direct TXT modules
+
+### Master (all-in-one)
+- Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/00_MASTER.txt  
+- Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/00_MASTER.txt  
+
+### Modules
+- 01_STRICT.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/01_STRICT.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/01_STRICT.txt  
+
+- 02_OUTPUT_CONTRACT.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/02_OUTPUT_CONTRACT.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/02_OUTPUT_CONTRACT.txt  
+
+- 03_EXECUTOR.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/03_EXECUTOR.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/03_EXECUTOR.txt  
+
+- 04_SCHEMAS.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/04_SCHEMAS.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/04_SCHEMAS.txt  
+
+- 05_GOVERNOR.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/05_GOVERNOR.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/05_GOVERNOR.txt  
+
+- 06_ENCOUNTERS.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/06_ENCOUNTERS.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/06_ENCOUNTERS.txt  
+
+- 07_TUNING.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/07_TUNING.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/07_TUNING.txt  
+
+- 08_FILTERS.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/08_FILTERS.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/08_FILTERS.txt  
+
+- 09_COMPAT.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/09_COMPAT.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/09_COMPAT.txt  
+
+- 10_GUARD_TESTS.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/10_GUARD_TESTS.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/10_GUARD_TESTS.txt  
+
+- 11_STARTER_STATE.txt  
+  Pages: https://iurirolho.github.io/Colony_rp-gpt_data/txt/11_STARTER_STATE.txt  
+  Raw:   https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/11_STARTER_STATE.txt  
 
 ## What the Master includes
 - STRICT mode (OK-only ack; LA warehouse lock; no meta/UI/URLs)
@@ -23,10 +80,6 @@ Open and follow:
 - COMPAT BOOTSTRAP (offline fallback)
 - GUARD SELF-TESTS (to avoid drift)
 - STARTER STATE & HIST
-
-## GitHub Pages
-If not already enabled: Settings → Pages → Deploy from branch → `main` → `(root)`.  
-Site root: https://iurirolho.github.io/Colony_rp-gpt_data/
 
 ## Notes
 - No JSON required. All configs are plain text.  
