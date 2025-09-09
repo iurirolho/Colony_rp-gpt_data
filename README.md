@@ -7,15 +7,6 @@ This repo is intentionally **pure text** so any GPT can load instructions by ope
 Paste this single link in chat and say: *Open this and follow it. Begin Day 1 in [PLANNING] after loading.*  
 - **Master file:** https://iurirolho.github.io/Colony_rp-gpt_data/txt/00_MASTER.txt
 
-## Or use the full loader (multiple URLs)
-Open and follow:
-
-- **Pages loader:**  
-  https://iurirolho.github.io/Colony_rp-gpt_data/txt/PASTE_ME_PAGES_LOADER.txt  
-
-- **Raw loader:**  
-  https://raw.githubusercontent.com/iurirolho/Colony_rp-gpt_data/main/txt/PASTE_ME_RAW_LOADER.txt  
-
 ---
 
 ## Direct TXT modules
