@@ -1,0 +1,92 @@
+{
+  "id": "executor-v1",
+  "on_load": {
+    "ack": "OK",
+    "fetch": [
+      "/cfg/mode.strict.v1.json",
+      "/cfg/output_contract.v1.txt",
+      "/cfg/schemas.v1.json",
+      "/cfg/governor.v1.json",
+      "/cfg/encounter.v1.json",
+      "/cfg/tuning.v1.json",
+      "/cfg/filters.v1.json"
+    ],
+    "fallback_if_fetch_fails": "Use hardcoded defaults from the manifest; do not stall or ask for files."
+  },
+  "run_mode": {
+    "cycle": "two-step",
+    "planning_order": [
+      "Narration",
+      "Events",
+      "STATE (pre)",
+      "Last Result",
+      "Choices"
+    ],
+    "resolution_order": [
+      "Applied",
+      "Outcome",
+      "STATE",
+      "HIST",
+      "PERIODIC"
+    ],
+    "choices_required": [
+      "A_safe_small_gain",
+      "B_risky_big_gain",
+      "C_maintenance_comfort"
+    ]
+  },
+  "setting_lock": {
+    "world": "Earth",
+    "city": "Los Angeles",
+    "base": "abandoned warehouse by the river",
+    "ban_tags": [
+      "sci-fi",
+      "space",
+      "exoplanet",
+      "magic",
+      "supernatural",
+      "meta_explanations",
+      "ooc_preamble"
+    ]
+  },
+  "use_files": {
+    "output_contract": "/cfg/output_contract.v1.txt",
+    "schemas": "/cfg/schemas.v1.json",
+    "governor": "/cfg/governor.v1.json",
+    "encounters": "/cfg/encounter.v1.json",
+    "tuning": "/cfg/tuning.v1.json",
+    "filters": "/cfg/filters.v1.json"
+  },
+  "state_rules": {
+    "overwrite_not_append": true,
+    "validate_invariants": true,
+    "percent_bounds": [
+      0,
+      100
+    ],
+    "day_step": 1,
+    "recompute_FW_WW": true,
+    "cooldowns_days": 5
+  },
+  "summaries": {
+    "weekly": true,
+    "monthly": true,
+    "quarterly": true,
+    "yearly": true
+  },
+  "packing": {
+    "packs_hint": "/cfg/packs/",
+    "sample": "/cfg/packs/sample_state.b85",
+    "decode_order": "Base85 → zlib → JSON",
+    "when_to_offer": "after Day 7, then monthly"
+  },
+  "error_handling": {
+    "cannot_fetch": "Proceed with defaults and continue the RP.",
+    "format_drift": "Re-output in contract order without apologies or meta talk.",
+    "setting_drift": "Reset to LA warehouse and continue."
+  },
+  "start": {
+    "if_no_state": "Initialize LA warehouse default from README.",
+    "first_message_type": "[PLANNING]"
+  }
+}

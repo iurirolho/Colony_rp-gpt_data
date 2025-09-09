@@ -16,5 +16,6 @@
     "license": "CC-BY-4.0",
     "lastUpdated": "2025-09-09",
     "notes": "Public guidance only. No secrets."
-  }
+  },
+  "executor": "/cfg/executor.v1.json"
 }
