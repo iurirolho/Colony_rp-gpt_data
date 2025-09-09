@@ -1,0 +1,46 @@
+{
+  "id": "strict-v1",
+  "ack_mode": "OK",
+  "setting_lock": {
+    "world": "Earth",
+    "city": "Los Angeles",
+    "base": "abandoned warehouse by the river",
+    "ban_tags": [
+      "sci-fi",
+      "space",
+      "exoplanet",
+      "magic",
+      "supernatural",
+      "meta_explanations",
+      "ooc_preamble"
+    ]
+  },
+  "output_order": [
+    "Narration",
+    "Events",
+    "Choices",
+    "Outcome",
+    "STATE",
+    "HIST"
+  ],
+  "choices_required": [
+    "A_safe_small_gain",
+    "B_risky_big_gain",
+    "C_maintenance_comfort"
+  ],
+  "cooldowns": {
+    "site_days": 5,
+    "major_event_days": 5
+  },
+  "invariants": {
+    "day_step": 1,
+    "percent_bounds": [
+      0,
+      100
+    ],
+    "project_progress_non_decreasing": true,
+    "resource_clamp_zero": true,
+    "recompute_FW_WW": true
+  },
+  "notes": "Enforce terse sections. No prefaces, apologies, or explanations."
+}

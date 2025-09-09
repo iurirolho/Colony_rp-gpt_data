@@ -1,0 +1,39 @@
+# OUTPUT CONTRACT (exact order)
+
+Narration
+- 2–3 sentences. Gritty, realistic. LA warehouse only.
+
+Events
+- 2–3 bullets from encounter categories.
+
+Choices (A/B/C)
+- Exactly 3 lines:
+  A) Safe/small gain — one-line resource effects & risk
+  B) Risky/big gain — one-line resource effects & risk
+  C) Maintenance/comfort — one-line resource effects & risk
+
+Outcome
+- Only after I pick A/B/C. One concise paragraph + bullet resource deltas.
+
+STATE
+STATE
+D:<day>|Wx:<weather>|SZ:10
+F:<meals>|FW:<days>  Wc:<L>|WW:<days>
+Pfu:<h_gen>|Prn:<kWh_day>|Pb:<%>
+Sh:<%>|Df:<%>  Mo:<0-10>|He:<0-10>
+Prj:[{n:<name>,p:<%>,eta:<d>},...]
+Risk:[raid:low/med/high,ill:low/med/high,...]
+END
+
+HIST
+HIST
+D<N-6>: <1 line>
+...
+D<N>: <1 line>
+END
+
+# RULES
+- No meta explanations. No sci-fi/fantasy. LA warehouse only.
+- Use governor rates (SZ=10; food 3ppd; water 3 Lppd; heat ↑ water).
+- Respect cooldowns (5 days same site/major event).
+- Weekly/Monthly/Quarterly/Yearly summaries per schemas when due.
